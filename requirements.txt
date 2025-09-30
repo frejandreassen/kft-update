@@ -1,4 +1,4 @@
-streamlit
-requests
-openai
-qdrant-client
+streamlit==1.29.0
+requests==2.32.3
+openai==1.70.0
+qdrant-client==1.13.3
