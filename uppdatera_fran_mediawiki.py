@@ -14,7 +14,7 @@ from openai import OpenAI
 QDRANT_URL = 'https://qdrant.utvecklingfalkenberg.se'
 QDRANT_PORT = 443
 EMBEDDING_MODEL = "text-embedding-3-large"  # Using the larger model
-BATCH_SIZE = 1000
+BATCH_SIZE = 200
 SLEEP_TIME = 1
 VECTOR_SIZE = 3072  # Updated vector size for large embeddings
 COLLECTION_NAME = 'mediawiki'  # Collection name for MediaWiki data
